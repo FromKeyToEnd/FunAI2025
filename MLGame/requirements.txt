@@ -1,0 +1,4 @@
+mlgame
+gymnasium
+scikit-learn
+stable-baselines3
