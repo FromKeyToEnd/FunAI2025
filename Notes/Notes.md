@@ -111,3 +111,25 @@ graph TD
     - <u>Resolution</u>: Increase training data, data agumentation, make model simpler
 #### Bias-Complexity Trade-off
 ![Bias-Complexity Trade-off](Bias_Complexity_Tradeoff.png)
+## 2 | K-Means
+### 2-1 | Intro
+- K-Means is a type of **Unsupervised Learning**, which means it provides unlabeled data and there is no ground truth.
+- The goal of K-means is to find representative data points in lots of multi-dimensional data by implementing:
+    - Data Compression
+    - Data Classification
+- Firstly we decide the amount of clusters $k$ and repetitively iterate, each time reducing the value of the error function until the error function does not change, at which point we arrive at the final result of the classification.
+### 2-2 | Instance
+1. Randomly select a sample from the $K$ data points as the initial cluster center.
+2. Assign each element to the cluster that corresponds to the closest cluster center.
+3. Move the cluster center to the center of the elements it corresponds to.
+4. Repeat steps 2 and 3 until conditions satisfy.
+### 2-3 | Disadvantages
+- We cannot predict the best $K$.
+- The result of each classification would be different due to the random selection of the sample.
+- Sometimes classifying cluster centers are important. (i.e. Different cluster centers might be desired to be in the same group)
+- Restrictions on the data type.
+    - We cannot measure the distance between individual points
+    - Sizes
+    - Densities
+    - [Non-globular shapes](https://stats.stackexchange.com/questions/144746/k-means-for-non-spherical-non-globular-clusters)
+- Result easily affected by noise or outliers
