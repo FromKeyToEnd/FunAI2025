@@ -132,4 +132,4 @@ graph TD
     - Sizes
     - Densities
     - [Non-globular shapes](https://stats.stackexchange.com/questions/144746/k-means-for-non-spherical-non-globular-clusters)
-- Result easily affected by noise or outliers
+- The result is easily affected by noise or outliers.
