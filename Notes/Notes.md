@@ -11,6 +11,7 @@ For instance:
 ### 1-2 | Machine Learning v.s. Deep Learning
 - Machine Learning: Analyzing input data to produce corresponding output, letting systems possess the ability to study by itself.
 - Deep Learning: Mostly refers to deep artificial neural networks, allowing `human-like` decision, judgment and learning.
+
 ![Machine Learning v.s. Deep Learning](MLvsDL.png)
 
 ### 1-3 | Different Tasks of Machine Learning
@@ -76,6 +77,7 @@ graph TD
     1. Function with unknown
     2. Define loss from training data
     3. Optimization
+
 ```mermaid
 graph TD
     A[How to Train Better]
