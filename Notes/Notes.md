@@ -133,3 +133,25 @@ graph TD
     - Densities
     - [Non-globular shapes](https://stats.stackexchange.com/questions/144746/k-means-for-non-spherical-non-globular-clusters)
 - The result is easily affected by noise or outliers.
+## 3 | K Nearest Neighbors (KNN)
+### 3-1 | Intro
+- KNN is a type of **Supervised Learning**, which means labeled data is provided, labeled data **might not be completely correct** (hence the majority is accepted), and the result depends on how much data set represents the overall population.
+- The classification of unknown data: Comparing data to neighbors in the domain, and using the most frequent classification tag as the predictive tag for the final new sample.
+- $k$: How many neighbors do we desire to find the KNN for
+- Different attributes having too much of a difference in scale could let the influences of some attributes become larger.
+    - Ex. Calculate the distance between two pieces of data
+    - Euclidean Distance = $\sqrt{(100000-80000)^2+(30-25)^2}$, in this case increasing $30$ is less influential than increasing $100000$.
+
+### 3-2 | Instance
+![KNN Overview](KNN_Overview.png)
+### 3-3 | KNN Classification & Regression
+- KNN Classification
+    - Output is a class that the item should belong in
+    - Final class depends on the voting result of the $k$ nearest neighbors
+- KNN Regression
+    - Output is a real number
+    - Final real number is the average value of the $k$ nearest neighbors
+### 3-4 | KNN Disadvantages
+- When encountering a large / multi-dimensional dataset, calculations are time-consuming and require large storage space.
+- When the dataset is not enough or imbalanced, some classes may be the majority.
+- The value of $k$ is influential to the final recognition rate, but $k$ cannnot be pre-determined.
