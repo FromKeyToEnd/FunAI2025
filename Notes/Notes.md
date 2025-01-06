@@ -155,3 +155,14 @@ graph TD
 - When encountering a large / multi-dimensional dataset, calculations are time-consuming and require large storage space.
 - When the dataset is not enough or imbalanced, some classes may be the majority.
 - The value of $k$ is influential to the final recognition rate, but $k$ cannnot be pre-determined.
+## 4 | Support Vector Machine (SVM)
+### 4-1 | Definition
+- Unsupervised Learning
+- Used to process data that have unclear boundaries
+    - Markings are inaccurate
+    - Classification is difficult
+- Uses hyperplanes to classify data, hence more accurate than neural networks
+- SVMs uses the borders of the training sets (support vectors) to classify, while Logistic uses the globality of the training set to classify.
+    - Logistic is more susceptible to noice
+    - SVM's borders might not move at all (outliers don't affect support vectors)
+- Linear unclassified data

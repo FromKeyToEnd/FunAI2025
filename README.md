@@ -1,4 +1,5 @@
 # FunAI2025
+![Static Badge](https://img.shields.io/badge/Python-%3E%3D3.10.0-green)<br>
 以下是我參加 FunAI Camp 2025 的資料。
 將會隨著時間累積而增加。
 
@@ -22,3 +23,6 @@ pip install torch torchvision torchaudio --extra-index-url https://download.pyto
 RL 訓練遊戲指令: `python -m mlgame -f 120 -i ml/rl_training_PPO.py ./ --game_type NORMAL --car_num 40 --racetrack_length 10000  --round 5 --sound off`<br>
 RL 玩遊戲指令: `python -m mlgame -f 120 -i ml/rl_play_PPO.py ./ --game_type NORMAL --car_num 40 --racetrack_length 10000  --round 5 --sound off`<br>
 訓練遊戲指令+不顯示畫面: `python -m mlgame -f 120 --nd -i ml/rl_training_PPO.py ./ --game_type NORMAL --car_num 40 --racetrack_length 10000  --round 5 --sound off` <br>
+
+## `Notes`
+Notes 是我所製作的筆記，會按時更新！😄
